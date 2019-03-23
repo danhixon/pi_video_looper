@@ -153,7 +153,7 @@ class VideoLooper(object):
         message if the on screen display is enabled.
         """
         # Print message to console with number of movies in playlist.
-        message = 'Ready for Takeoff!')
+        message = 'Ready for Takeoff!'
         self._print(message)
         # Do nothing else if the OSD is turned off.
         if not self._osd:
